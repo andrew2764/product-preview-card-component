@@ -95,6 +95,10 @@ img {
   margin-right: 0.5em;
 }
 
+.cart--button:hover {
+  background-color: #1a4032;
+}
+
 .attribution {
   position: absolute;
   bottom: 0;

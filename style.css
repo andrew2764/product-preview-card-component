@@ -21,10 +21,15 @@ img {
   width: 90%;
   margin: auto;
   border-radius: 8px;
+  max-width: 400px;
 }
 
 .product--image {
   border-radius: 8px 8px 0 0;
+}
+
+.content {
+  padding: 1rem 1.75rem;
 }
 
 .title {
@@ -32,6 +37,7 @@ img {
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.5em;
+  margin: 0;
 }
 
 .header {
@@ -62,6 +68,16 @@ img {
   color: white;
   background-color: #3d8168;
   font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75em 0;
+  border-radius: 8px;
+  margin-top: 0.75em;
+}
+
+.cart--button img {
+  margin-right: 0.5em;
 }
 
 .attribution {

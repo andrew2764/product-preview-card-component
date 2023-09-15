@@ -50,14 +50,20 @@ img {
   font-size: 0.875rem;
 }
 
-.price--main {
+.prices {
+  display: flex;
+  align-items: center;
+}
+
+.prices--main {
   font-size: 2rem;
   font-family: "Fraunces", serif;
   font-weight: 700;
   color: #3d8168;
+  margin-right: 0.5em;
 }
 
-.price--secondary {
+.prices--secondary {
   font-size: 0.8125rem;
   text-decoration: line-through;
   color: #6c7289;
